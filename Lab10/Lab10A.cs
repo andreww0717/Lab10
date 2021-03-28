@@ -24,17 +24,9 @@ class Lab10A
             switch (userInput[i])
             {
                 case 'a':
-                    count++;
-                    Console.Write("*"); break;
                 case 'e':
-                    count++;
-                    Console.Write("*"); break;
                 case 'i':
-                    count++;
-                    Console.Write("*"); break;
                 case 'o':
-                    count++;
-                    Console.Write("*"); break;
                 case 'u':
                     count++;
                     Console.Write("*"); break;

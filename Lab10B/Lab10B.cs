@@ -10,25 +10,25 @@ namespace Lab10B
 {
     class Lab10B
     {
-        public static void printCensoredString(string userInput)
+        public static void dangFinder(string userInput)
         {
-            string badWord = "dang";
-        string NewWord = "&^#@";
+        string badWord = "dang";
+        string newWord = "&^#@";
 
             while (userInput.IndexOf(badWord) != -1)
             {
                 int index = userInput.IndexOf(badWord);
                 Console.WriteLine($"Found bad word at: {index}");
-                userInput = userInput.Remove(index, 4).Insert(index, NewWord.ToString());
+                userInput = userInput.Remove(index, 4).Insert(index, newWord.ToString());
             }
     Console.WriteLine(userInput);
             
         }
-        static void Main(string[] args)
+        public static void Main(string[] args)
 {
     Console.Write("Enter a string: ");
     String userInput = Console.ReadLine();
-            printCensoredString(userInput);
+            dangFinder(userInput);
 
 }
 
