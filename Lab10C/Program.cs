@@ -1,8 +1,14 @@
 ﻿using System;
+// Class: CSE 1321L
+// Section: #01
+// Term: Spring 2021
+// Instructor: Howard, Dexter
+// Name: Andrew Winland
+// Lab#: 10
 
 namespace Lab10C
 {
-    class Program
+    class Lab10C
     {
         static void Main(string[] args)
         {

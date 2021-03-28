@@ -1,6 +1,12 @@
 ﻿using System;
+// Class: CSE 1321L
+// Section: #01
+// Term: Spring 2021
+// Instructor: Howard, Dexter
+// Name: Andrew Winland
+// Lab#: 10
 
-class MainClass
+class Lab10A
 {
     public static void Main(string[] args)
     {
